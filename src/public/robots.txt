@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://slotarena.space/sitemap.xml
+Sitemap: https://slotpath.site/sitemap.xml

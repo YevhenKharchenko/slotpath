@@ -1,37 +1,10 @@
 .contact-section {
-  @include media(desktop) {
-  }
-}
-
-.contact-bg-wrapper {
-  padding-top: 104px;
-  padding-bottom: 104px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image:
-    url(../img/contact/contact-messages-mob.png),
-    url(../img/contact/contact-arrows-mob.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position:
-    top 56px left,
-    bottom left;
-  background-size: auto, auto;
+  padding-top: 64px;
+  padding-bottom: 80px;
 
   @include media(desktop) {
-    padding-top: 120px;
-    padding-bottom: 160px;
-    max-width: 1440px;
-    background-image:
-      url(../img/contact/contact-messages-desk.png),
-      url(../img/contact/contact-arrows-desk.png),
-      url(../img/contact/contact-quote-desk.png);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position:
-      top 10px left,
-      bottom left,
-      bottom right;
-    background-size: auto, auto, auto;
+    padding-top: 80px;
+    padding-bottom: 120px;
   }
 }
 
@@ -40,44 +13,73 @@
   }
 }
 
+.contact-content-wrapper {
+  background: #002787;
+  border-radius: 48px;
+  padding: 48px 16px;
+
+  @include media(desktop) {
+    padding: 64px 40px;
+  }
+}
+
 .contact-title {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 22px;
+  color: #fff;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-subtitle {
+  color: #fff;
+
+  @include media(desktop) {
+    margin-bottom: 48px;
+  }
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
   line-height: 1.4;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  margin-bottom: 8px;
+
+  @include media(desktop) {
+    font-size: 32px;
+  }
+}
+
+.arrow-icon {
+  min-width: 40px;
+}
+
+.contact-text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
   text-align: center;
-  color: #262520;
-  max-width: 311px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 24px;
 
   @include media(desktop) {
-    font-size: 36px;
-    max-width: 640px;
+    margin-bottom: 48px;
   }
 }
 
 .contact-btn {
-  box-shadow: 4px 4px 0 0 #c3d09b;
-  background: #fff;
-  border: 1px solid #262520;
-  padding: 11px 15px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  color: #262520;
-  width: 100%;
   max-width: 311px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
   @include media(desktop) {
-    max-width: 397px;
+    max-width: 220px;
   }
 }

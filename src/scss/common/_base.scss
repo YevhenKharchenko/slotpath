@@ -56,10 +56,24 @@ html {
   }
 }
 
-.section {
-  scroll-margin-top: 50px;
+.section-subtitle {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
 
   @include media(desktop) {
-    scroll-margin-top: 70px;
+    font-size: 52px;
+  }
+}
+
+.section {
+  scroll-margin-top: 52px;
+
+  @include media(desktop) {
+    scroll-margin-top: 62px;
   }
 }
