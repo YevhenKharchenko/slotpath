@@ -1,0 +1,152 @@
+.hero-section {
+  @include media(desktop) {
+  }
+}
+
+.hero-bg-wrapper {
+  padding-top: 94px;
+  padding-bottom: 42px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding-top: 230px;
+    padding-bottom: 32px;
+    max-width: 1440px;
+    background-image: url(../img/hero/hero-bg-desk.jpg);
+  }
+}
+
+.hero-container {
+  @include media(desktop) {
+  }
+}
+
+.hero-main-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #262520;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 42px;
+    max-width: 640px;
+  }
+}
+
+.hero-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #5e6b26;
+  margin-bottom: 104px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    max-width: 640px;
+    margin-bottom: 167px;
+  }
+}
+
+.hero-text-span {
+  color: #94272c;
+}
+
+.hero-bottom-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.hero-img-wrapper {
+  padding: 20px 32px;
+  max-width: 283px;
+
+  @include media(desktop) {
+  }
+}
+
+.hero-img {
+  margin-bottom: 5px;
+
+  @include media(desktop) {
+  }
+}
+
+.hero-img-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #585550;
+
+  @include media(desktop) {
+  }
+}
+
+.hero-challenges-wrapper {
+  box-shadow: 4px 4px 0 0 #c3d09b;
+  background: #fff;
+  border: 1px solid #c3d09b;
+  padding: 19px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  @include media(desktop) {
+  }
+}
+
+.hero-challenges-text-wrapper {
+  max-width: 233px;
+
+  @include media(desktop) {
+    max-width: 370px;
+  }
+}
+
+.hero-challenges-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #262520;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.hero-challenges-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #585550;
+
+  @include media(desktop) {
+  }
+}
+
+.hero-hand-img {
+  min-width: 52px;
+
+  @include media(desktop) {
+  }
+}
