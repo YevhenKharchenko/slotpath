@@ -1,48 +1,41 @@
 <section class="section hero-section" id="home">
   <div class="hero-bg-wrapper">
     <div class="container hero-container">
-      <div class="hero-content-wrapper">
-        <h1 class="hero-main-title">
-          It's not about speed — it's about getting it right!
-        </h1>
-        <p class="hero-text">
-          <span class="hero-text-span"
-            >Every arena plays by different rules,</span
-          >
-          and success comes from understanding the system — not rushing through
-          it.
-        </p>
-        <div class="hero-bottom-wrapper">
-          <div class="hero-img-wrapper">
-            <img
-              class="hero-img"
-              src="./img/hero/hero-img-mob.png"
-              alt="Screenshot of the game"
-              width="210"
-              height="98"
-            />
-            <p class="hero-img-text">
-              Each level, a new challenge. Test your logic in every arena.
-            </p>
-          </div>
-          <div class="hero-challenges-wrapper">
-            <div class="hero-challenges-text-wrapper">
-              <p class="hero-challenges-title">Daily Challenges</p>
-              <p class="hero-challenges-text">
-                Take on new puzzles every day and sharpen your skills. No two
-                challenges are the same—can you master them all?
-              </p>
-            </div>
-            <img
-              class="hero-hand-img"
-              src="./img/hero/hero-hand-mob.png"
-              alt="Hand"
-              width="52"
-              height="52"
-            />
-          </div>
+      <picture>
+        <source
+          srcset="./img/hero/hero-title-desk.png"
+          media="(min-width: 1440px)"
+          width="480"
+          height="381" />
+        <source
+          srcset="./img/hero/hero-title-mob.png"
+          width="280"
+          height="222" />
+        <img
+          class="hero-img"
+          src="./img/hero/hero-title-mob.png"
+          alt="Title"
+          width="280"
+          height="222"
+      /></picture>
+      <p class="hero-text">
+        Fetch & Match: Match 3D is perfect if you're the type who likes to slow
+        down and really pay attention to the little things.
+      </p>
+      <a
+        class="hero-btn"
+        href="https://play.google.com/store/apps/details?id=com.kakaogames.match3d&hl=en&gl=us"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="playstore-icon" width="30" height="34">
+          <use href="./img/sprite.svg#icon-playstore"></use>
+        </svg>
+        <div class="hero-btn-text-wrapper">
+          <p class="her-btn-top-text">GET IT ON</p>
+          <p class="her-btn-bottom-text">Google Play</p>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
