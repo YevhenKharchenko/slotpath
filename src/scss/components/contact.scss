@@ -51,6 +51,7 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #fff;
+  word-break: break-all;
   margin-bottom: 8px;
 
   @include media(desktop) {

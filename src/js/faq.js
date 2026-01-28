@@ -13,7 +13,9 @@ function onBtnClick(e) {
     if (item !== faqContainer) {
       item.classList.remove('faq-open');
       item.querySelector('.faq-bottom-text').classList.remove('is-visible');
-      iconUse.setAttribute('href', `${sprite}#icon-plus`);
+
+      const itemIcon = item.querySelector('.faq-top-text-btn use');
+      itemIcon.setAttribute('href', `${sprite}#icon-plus`);
     }
   });
 
